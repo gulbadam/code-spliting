@@ -32,8 +32,11 @@ button {
   width: 7rem;
   border: 1px solid blueviolet;
   margin: 1rem;
+  font-size: 1em;
+  color: blue;
 }
 .disabled {
   background: white;
   border: 1px solid black;
+  color: rgb(208, 207, 207);
 }

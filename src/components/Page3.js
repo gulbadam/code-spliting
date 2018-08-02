@@ -7,8 +7,8 @@ const Page3 = ({onRouteChange}) => {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React3</h1>
         </header>
-        <button onClick={()=>onRouteChange('page2')}>Page1</button>
-        <button onClick = {()=>onRouteChange('page3')}>Page2</button>
+        <button onClick={()=>onRouteChange('page1')}>Page1</button>
+        <button onClick = {()=>onRouteChange('page2')}>Page2</button>
         <button className="disabled">Page3</button>
 </div>)
 };
